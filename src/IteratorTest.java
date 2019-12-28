@@ -10,5 +10,6 @@ public class IteratorTest {
             count++;
         }
         System.out.println((System.currentTimeMillis() - start) + "ms");
+        System.out.println("2nd commit");
     }
 }
