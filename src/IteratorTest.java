@@ -11,5 +11,6 @@ public class IteratorTest {
         }
         System.out.println((System.currentTimeMillis() - start) + "ms");
         System.out.println("2nd commit");
+        System.out.println("commit in branch: master");
     }
 }
