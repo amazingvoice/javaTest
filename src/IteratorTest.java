@@ -12,5 +12,6 @@ public class IteratorTest {
         System.out.println((System.currentTimeMillis() - start) + "ms");
         System.out.println("2nd commit");
         System.out.println("commit in branch: master");
+        System.out.println("doing some thing on the hotfix branch");
     }
 }
