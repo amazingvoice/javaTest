@@ -13,5 +13,6 @@ public class IteratorTest {
         System.out.println("2nd commit");
         System.out.println("commit in branch: master");
         System.out.println("fixed something in the hotfix branch");
+        System.out.println("fixed something on issue 53");
     }
 }
