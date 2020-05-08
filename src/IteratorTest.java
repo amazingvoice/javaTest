@@ -29,7 +29,7 @@ public class IteratorTest {
         System.out.println(responseData.getVideoConfigList().getQCOMDefault());
          */
 
-        System.out.println("test");
+        System.out.println("test2");
 
         HashMap<String, String[]> map = new HashMap<>();
         map.put("a", new String[]{"1", "2"});
