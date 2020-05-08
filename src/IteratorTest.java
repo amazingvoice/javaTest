@@ -29,6 +29,8 @@ public class IteratorTest {
         System.out.println(responseData.getVideoConfigList().getQCOMDefault());
          */
 
+        System.out.println("test");
+
         HashMap<String, String[]> map = new HashMap<>();
         map.put("a", new String[]{"1", "2"});
     }
@@ -42,7 +44,7 @@ public class IteratorTest {
                     new FileInputStream(jsonFile), StandardCharsets.UTF_8);
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
             StringBuilder stringBuilder = new StringBuilder();
-            while ((line = bufferedReader.readLine())!=null){
+            while ((line = bufferedReader.readLine())!=null) {
                 stringBuilder.append(line);
             }
             bufferedReader.close();
