@@ -1,0 +1,13 @@
+{
+  "videoConfigList": {
+    "minAppVersion": "7.1.0",
+    "configVersion": "1.0.0",
+
+    "MTKDefault": "system/system/bubble/system",
+    "QCOMDefault": "meicam/meicam/thumbnail/system",
+    "Customized": [
+      "mt6779:meicam:-:meicam:-",
+      "mt6885:meicam:-:meicam:-"
+    ]
+  }
+}
